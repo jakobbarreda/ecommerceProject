@@ -1,0 +1,23 @@
+.container {
+  display: block;
+  justify-content: start;
+  width: 20%;
+  height: 90lvh;
+  background-color: whitesmoke;
+  color: black;
+  padding: 0 20px;
+}
+
+.listLinks {
+  margin-bottom: 1rem;
+}
+
+.listLinks a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+}
+
+.listLinks:hover {
+  background-color: gray;
+}

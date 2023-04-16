@@ -1,12 +1,14 @@
+import Image from "next/image";
 import styles from "./header.module.css";
 import Link from "next/link";
+import BottomHeader from "./BottomHeader";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <>
-      <div id={styles.mainNav}>
-        <div className={(styles.container, styles.link)}>
-          <Link href="/">Logo</Link>
+      <div className={styles.mainNav}>
+        <div className={styles.container}>
+          <Image src="/logo.jpg" width={150} height={50} />
         </div>
 
         <select>
@@ -34,8 +36,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-
-      <div></div>
+      <BottomHeader showSideBar={props.showSideBar} />
     </>
   );
 };

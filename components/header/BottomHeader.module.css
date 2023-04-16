@@ -1,0 +1,19 @@
+.bottomNav {
+  background-color: rgb(73, 71, 101);
+  width: auto;
+  height: 1.5rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  justify-content: center;
+  font-size: 1.2rem;
+  position: static;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}

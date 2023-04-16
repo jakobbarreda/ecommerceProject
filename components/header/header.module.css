@@ -1,4 +1,4 @@
-#mainNav {
+.mainNav {
   background-color: black;
   width: auto;
   height: 4rem;
@@ -8,6 +8,7 @@
   padding: 5px;
   justify-content: center;
   font-size: 1.2rem;
+  position: static;
 }
 
 .container {
@@ -18,9 +19,4 @@
 .search {
   width: 65%;
   max-width: 65%;
-}
-
-.link {
-  text-decoration: none;
-  color: white;
 }

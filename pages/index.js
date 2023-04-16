@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
-import Header from "@/components/header/Header";
+import Container from "@/components/card/Container";
+import Carousel from "@/components/carousel/Carousel";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -8,9 +9,11 @@ export default function Home() {
   return (
     <>
       <Head></Head>
-      <main>
-        <h1>main page</h1>
-      </main>
+      <Container>
+        <main>
+          <Carousel />
+        </main>
+      </Container>
     </>
   );
 }
