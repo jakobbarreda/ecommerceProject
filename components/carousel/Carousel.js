@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./carousel.module.css";
 
-const Carousel = () => {
+const Carousel = (props) => {
   return (
     <>
       <div className={styles.container}>

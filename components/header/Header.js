@@ -8,7 +8,9 @@ const Header = (props) => {
     <>
       <div className={styles.mainNav}>
         <div className={styles.container}>
-          <Image src="/logo.jpg" width={150} height={50} />
+          <Link href="/">
+            <Image src="/logo.jpg" width={150} height={50} />
+          </Link>
         </div>
 
         <select>
