@@ -1,0 +1,22 @@
+.container {
+  width: auto;
+  max-width: 95%;
+  height: 20rem;
+  background-color: white;
+  position: relative;
+  bottom: 20rem;
+  left: 1.5rem;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.itemLayout {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item {
+  background-color: lightgray;
+  height: 15rem;
+  width: 12rem;
+}

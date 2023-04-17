@@ -9,11 +9,9 @@ const Carousel = (props) => {
           <div className={styles.slide}>
             <Image src="/kidsToys.jpg" width={1500} height={600} />
           </div>
-
           <div className={styles.slide}>
             <Image src="/alexa.jpg" width={1500} height={600} />
           </div>
-
           <div className={styles.slide}>
             <Image src="/powerTools.jpg" width={1500} height={600} />
           </div>

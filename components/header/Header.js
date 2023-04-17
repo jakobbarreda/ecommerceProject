@@ -23,17 +23,17 @@ const Header = (props) => {
         ></input>
         <button>Search</button>
 
-        <div>
-          <div className={styles.container}>
+        <div className={styles.container}>
+          <div className={styles.items}>
             <span>Language</span>
           </div>
-          <div className={styles.container}>
+          <div className={styles.items}>
             <span>Sign In</span>
           </div>
-          <div className={styles.container}>
+          <div className={styles.items}>
             <span>Return/Orders</span>
           </div>
-          <div className={styles.container}>
+          <div className={styles.items}>
             <span>cart</span>
           </div>
         </div>
