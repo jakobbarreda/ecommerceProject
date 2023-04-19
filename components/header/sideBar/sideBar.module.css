@@ -1,0 +1,19 @@
+.icon {
+  margin: 0px 3px;
+}
+
+.container {
+  width: 3rem;
+  height: 2rem;
+  display: block;
+  align-items: center;
+  background-color: #232f3e;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.container:hover {
+  border: 1px solid white;
+}

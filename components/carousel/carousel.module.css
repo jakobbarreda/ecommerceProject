@@ -1,35 +1,6 @@
 .container {
-  overflow: hidden;
-  height: 600px;
-  width: 100rem;
-  margin: 0 auto 0 3.5rem;
-}
-
-.slideWrapper {
-  width: calc(100rem * 4);
-  animation: slide 15s ease infinite;
-}
-
-.slide {
-  float: left;
-  height: 600px;
-  width: 100rem;
-}
-
-@keyframes slide {
-  20% {
-    margin-left: 0px;
-  }
-
-  40% {
-    margin-left: calc(-100rem * 1);
-  }
-
-  60% {
-    margin-left: calc(-100rem * 2);
-  }
-
-  80% {
-    margin-left: calc(-100rem * 3);
-  }
+  width: 72%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }

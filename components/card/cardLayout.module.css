@@ -1,15 +1,15 @@
 .container {
-  width: 100rem;
+  width: 95rem;
   height: 60rem;
   margin: auto;
-  bottom: 15rem;
+  bottom: 27rem;
   position: relative;
 }
 
 .cardSection {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .cardItem {

@@ -1,5 +1,5 @@
-import Header from "@/components/header/Header";
-import SideBarItems from "@/components/header/SideBarItems";
+import Header from "@/components/header/topHeader/Header";
+import SideBarItems from "@/components/header/sideBar/SideBarItems";
 import "@/styles/globals.css";
 import { useState } from "react";
 

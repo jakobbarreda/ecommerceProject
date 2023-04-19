@@ -1,18 +1,13 @@
 .bottomNav {
-  background-color: rgb(73, 71, 101);
+  background-color: #232f3e;
   width: auto;
-  height: 1.5rem;
+  height: 1.8rem;
   color: white;
   display: flex;
   align-items: center;
   padding: 5px;
   justify-content: space-evenly;
-  font-size: 1rem;
+  font-size: 14px;
   position: static;
-}
-
-.link {
-  color: white;
-  text-decoration: none;
-  margin: 5px;
+  font-weight: normal;
 }

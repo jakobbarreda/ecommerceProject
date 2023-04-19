@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  height: 2rem;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.topMessage {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.bottomMessage {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.container:hover {
+  border: 1px white solid;
+  border-radius: 3px;
+}

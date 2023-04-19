@@ -1,0 +1,56 @@
+.mainNav {
+  background-color: #1f3144;
+  width: auto;
+  height: 3rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  justify-content: space-evenly;
+  font-size: 1rem;
+  position: static;
+}
+
+.logo {
+  position: relative;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  width: 100%;
+  font-size: 1rem;
+}
+
+.form {
+  display: flex;
+  width: 68%;
+  height: 42px;
+}
+
+.departments {
+  border-radius: 5px 0 0 5px;
+  width: 3.5rem;
+}
+
+.address {
+  width: 10rem;
+}
+
+.cart {
+  width: 5rem;
+}
+
+.language {
+  width: 5rem;
+}
+
+.lookup {
+  border-radius: 0 5px 5px 0;
+  background-color: orange;
+  width: 3.5rem;
+  border-color: rgb(230, 150, 0);
+}
