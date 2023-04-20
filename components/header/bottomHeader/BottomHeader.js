@@ -20,7 +20,7 @@ const BottomHeader = (props) => {
         <DepartmentLink href="/" department="Today's Deals" />
         <DepartmentLink href="/" department="Music" />
         <DepartmentLink href="/" department="Books" />
-        <DepartmentLink href="/" department="Regisrty" />
+        {/* <DepartmentLink href="/" department="Regisrty" />
         <DepartmentLink href="/" department="Fashion" />
         <DepartmentLink href="/" department="Amazon Home" />
         <DepartmentLink href="/" department="One Medical" />
@@ -32,7 +32,7 @@ const BottomHeader = (props) => {
         <DepartmentLink href="/" department="Automotive" />
         <DepartmentLink href="/" department="Find a Gift" />
         <DepartmentLink href="/" department="Computers" />
-        <DepartmentLink href="/" department="Make every day Earth Day" />
+        <DepartmentLink href="/" department="Make every day Earth Day" /> */}
       </div>
     </>
   );

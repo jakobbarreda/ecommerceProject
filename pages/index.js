@@ -16,10 +16,10 @@ export default function Home() {
           crossorigin="anonymous"
         ></script>
       </Head>
+      <CarouselImages />
       <Container>
-        <CarouselImages />
         <CardLayout />
-        <WideCardLayout title="Trending Deals" />
+        {/* <WideCardLayout title="Trending Deals" /> */}
       </Container>
     </>
   );
